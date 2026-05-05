@@ -65,6 +65,12 @@ export default function Header() {
         {/* Desktop CTAs */}
         <div className="hidden md:flex items-center gap-3">
           <Link
+            href="/chat"
+            className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors px-3 py-2"
+          >
+            Try Chat
+          </Link>
+          <Link
             href="#"
             className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors px-3 py-2"
           >
